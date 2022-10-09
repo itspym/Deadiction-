@@ -1,0 +1,122 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occupational and Financial Details</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Occupational and Financial Details</header>
+
+        <form action="#">
+            
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Occupational History</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Age of Started Working</label>
+                            <input type="number" placeholder="Enter In Years" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Total Years of Working</label>
+                            <input type="number" placeholder="Enter In Years" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Change of Jobs Due to Addiction</label>
+                            <select required>
+                                <option disabled selected>Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>  
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Any Period of Unemployment</label>
+                            <select required>
+                                <option disabled selected>Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>  
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupational Damage Received by Councellor</label>
+                            <select required>
+                                <option disabled selected>Select Option</option>
+                                <option>Mild</option>
+                                <option>Moderate</option> 
+                                <option>Sever</option>  
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nature of Current Work</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Financial Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Any Debt</label>
+                            <select required>
+                                <option disabled selected>Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Total Amount Borrow</label>
+                            <input type="number" placeholder="Enter Amount Borrow" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Total Amount Remainig</label>
+                            <input type="number" placeholder="Enter Amount Remainig" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>From Whome amoutn Borrowed</label>
+                            <input type="text" placeholder="Enter ward number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Reason for Debt</label>
+                            <input type="text" placeholder="Enter ward number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Debt Clear</label>
+                            <select required>
+                                <option disabled selected>Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                                
+                            </select>
+                        </div>                        
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
